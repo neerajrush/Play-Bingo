@@ -78,7 +78,7 @@ def persist_all_assigned_sheets(db_name, assinged_sheets):
 			query = "INSERT INTO assigned_sheets_list values (" + "'" + player_name + "'" + "," + "'" + sheet_id + "'" + ")" 
 			result_set = c.execute(query)
 
-#players_list = [ 'Neeraj Sharma', 'Ruchi Sharma', 'Arshia Sharma' ]
+#players_list = [ 'N Sharma', 'R Sharma', 'A Sharma' ]
 #sheets_list = [ 'SHEET-10', 'SHEET-1', 'SHEET-5', 'SHEET-7', 'SHEET-11' ]
 #players_assinged_sheets, assigned_list = assign_sheets_to_players(players_list, sheets_list)
 #print(players_assinged_sheets)
